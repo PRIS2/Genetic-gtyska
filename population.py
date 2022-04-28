@@ -9,6 +9,7 @@ G = TypeVar('G')
 
 class Population:
     def __init__(self, individuals_list: List[Individual]) -> None:
+        """Inits Population class with list of individuals."""
         self.individuals_list = individuals_list
         self.population_length = len(individuals_list)
 

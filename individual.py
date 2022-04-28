@@ -7,6 +7,7 @@ G = TypeVar('G')
 
 class Individual:
     def __init__(self, genotype: List[G]) -> None:
+        """Inits Individual class with list of genes."""
         self.genotype = genotype
         self.genotype_length = len(genotype)
 

@@ -7,6 +7,7 @@ G = TypeVar('G')
 
 class Crossover:
     def __init__(self, individual_1: Individual, individual_2: Individual):
+        """Inits Crossover class with two individuals."""
         self.individual_1: Individual = individual_1
         self.individual_2: Individual = individual_2
 
